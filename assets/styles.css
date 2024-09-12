@@ -1,0 +1,43 @@
+body {
+    font-family: "Playpen Sans", cursive;
+    margin:0;
+
+}
+
+.nav {
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    background-color: hsl(31, 100%, 79%);
+}
+
+.nav ul {
+    list-style-type: none;
+    display:flex;
+    margin-right:20px;
+    width:50%;
+    margin:10;
+    gap:4rem;
+    justify-content: flex-end;
+    align-items:center;
+}
+
+.nav ul li{
+    display:flex;
+    background-color:hsl(31, 100%, 88%);
+    padding:0.5rem;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 10%;
+    font-weight:bolder;
+    transition: 1s ease-in-out;
+}
+.nav ul li:hover {
+    transform: scale(1.1);
+}
+
+.site-title {
+    margin-left:10px;
+}
+
+
+
